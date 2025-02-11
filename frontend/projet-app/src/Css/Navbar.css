@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.navbar-hero {
+    height: 10vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-container {
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.211);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 70%;
+    padding: 0 2rem;
+    text-decoration: none;
+    border: 1px solid #cccccc00;
+    box-shadow: 0px 2px 5px 5px rgba(255, 255, 255, 0.425);
+}
+
+.aborder a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 1rem; 
+}
+
+.aborder a:hover {
+    color: rgb(255, 0, 157);
+    height: 25px;
+    width: 50px;
+    background-color: #00000046;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+
+
+.aborder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.aborder h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 1rem; 
+}
+

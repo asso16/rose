@@ -1,0 +1,125 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+.contact-body {
+    backdrop-filter: blur(5px);
+    width: 85vw;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    background-color: rgba(238, 228, 238, 0.178);
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.loction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loction h3 {
+    font-size: 23px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 25px;
+    padding: 10px;
+    width: 300px;
+    text-align: center ;
+}
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ flex-direction: column;
+ padding-bottom: 20px;
+ color: aliceblue;
+}
+.info h2 {
+    background-color: rgba(0, 0, 0, 0.411);
+       border-radius: 25px;
+    font-size: 23px;
+    padding: 10px;
+    width: 300px;
+    text-align: center ;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.work h3 {
+    font-size: 23px;
+ background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 25px;
+    padding: 10px;
+    width: 300px;
+    text-align: center ;
+
+    color: aliceblue;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+        color: aliceblue;
+
+}
+.social h3 {
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 25px;
+    padding: 10px;
+    width: 300px;
+    text-align: center ;
+    color: aliceblue;
+}
+.social ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+.social li a {
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.social li a:hover {
+    padding: 20px;
+    color: rgb(211, 211, 211);
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.customer h3 {
+    font-size: 23px;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 25px;
+    padding: 10px;
+    width: 300px;
+    text-align: center ;
+    color: aliceblue;
+}
